@@ -72,6 +72,7 @@ export class TronGasFree extends GasFree {
   public assembleGasFreeTransactionJson(
     parameters: AssembleGasFreeTransactionParams,
   ): TronGasFreeTypedData {
+    console.log('test');
     const {
       domain: domainTron,
       types,
